@@ -4,10 +4,10 @@ export const config: WebdriverIO.Config = {
     ...sharedConfig,
     ...{
         capabilities: [{
-            browserName: 'chrome',
-            'goog:chromeOptions': {
-                args: ['headless', 'disable-gpu']
-            }
+            browserName: 'chrome'
+            // 'goog:chromeOptions': {
+            //     args: ['headless', 'disable-gpu']
+            // }
         }]
     }
 }

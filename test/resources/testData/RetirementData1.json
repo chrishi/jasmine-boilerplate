@@ -1,0 +1,18 @@
+{
+    "Current_Age": 40,
+    "retirement_Age": 60,
+    "Current_Annual_Income": 1000,
+    "Spouse_annual_income": 1000,
+    "Current_retirement_savings": 500,
+    "Current_retirement_contribution": 10,
+    "Annual_retirement_contribution_increase": 2,
+    "Social_Security_Benifit": "Yes",
+    "Relationship_status": "Married",
+    "Social_Security_Override": 500,
+    "Additional_income": 500,
+    "years_Retirement_To_Last": 30,
+    "PostRetirement_Income_Increase": "Yes",
+    "Final_Annual_Income_Desired": 75,
+    "PreRetirement_Return": 8,
+    "PostRetirement_Return": 5
+}
