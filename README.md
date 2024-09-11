@@ -1,5 +1,15 @@
-Jasmine Boilerplate ![CI](https://github.com/webdriverio/jasmine-boilerplate/workflows/CI/badge.svg?event=push)
+Jasmine Boilerplate 
 ===================
+
+To the existing framework, I have added Tests to validate Retirement calculator app on Securion web page.
+Additional Notes on my changes:
+1. Tests are written under the file name: 'test/specs/retirementCalculator.spec.ts'
+2. Followed PageObject pattern approach and the page objects files that I created are - 'test/pageObjects/retirementCalcDfltVals.page.ts' & 'test/pageObjects/retirementCalcReqVals.page.ts'
+3. I have written the code in TypeScript and used the Jasmine framework.
+4. Tests read the input data from a Json file. Test data file - 'test/resources/testData/RetirementData1.json'
+5. Added Allure Reporting to the framework.
+6. Test can be triggered from the terminal using command - 'npm run test:local' .
+
 
 Boilerplate project to run WebdriverIO tests with Jasmine using latest ES2016 features and the page objects pattern.
 
